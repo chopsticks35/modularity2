@@ -1,0 +1,210 @@
+/*horizonatla centering*/
+.center {
+
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.center img {
+
+	vertical-align: top;
+	padding: 15px;
+}
+
+.center p, .center ol {
+
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*vertical centering*/
+.vertical {
+
+	line-height: 200px;
+	padding: 10px;
+}
+
+.vertical img {
+
+	display: block;
+	vertical-align: middle;
+	padding: 10px;;
+}
+
+.vertical p, .vertical ol {
+	line-height: 100px;
+	padding: 15px;
+}
+
+.vertical li {
+	line-height: 25px;
+}
+
+/*ul items horizontally*/
+.hortizontal ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal li {
+
+	display: inline-block;
+}
+
+/*buttons*/
+
+.button {
+ 
+ display: inline-block;
+ background: red;
+ opacity:.7;
+ border: 2px solid red;
+ border-radius: 10px;
+ text-align: center;
+ vertical-align: middle;
+ color: white;
+ text-decoration: none;
+ font: bold 20px;
+
+
+}
+
+#one {
+	height:50px;
+	width: 140px;
+}S
+
+#two {
+	height:40px;
+	width: 120px;
+}
+
+#three {
+	height:15px;
+	width: 25px;
+}
+
+/*nav bar*/
+nav {
+	height: 50px;
+	width: 100%;
+	float: left;
+	margin: none;
+	padding: 0;
+	list-style-type: none;
+	background: red;
+ 	opacity:.7;
+	border: 2px solid red;
+ 	border-radius: 10px;
+ 	color: white;
+	text-decoration: none;
+ 	
+
+}
+
+nav li {
+	margin: none;
+	padding: 0 30px 0 10px;
+	float:left;
+	list-style-type: none;
+
+	
+}
+
+nav li:hover {
+
+	background-color: magenta;
+}
+
+nav li a {
+
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+	
+}
+/*pagination*/
+
+ol.pagination {
+
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+
+}
+
+ol.pagination li {
+	display: inline;
+}
+
+ol.pagination li {
+	color:red;
+	opacity:.7;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+ol.pagination li a.active {
+
+	backgroundcolor: magenta;
+	color: white;
+}
+
+ol.pagination li a:hover:not(active) {
+
+	background-color: #ddd;
+}
+
+.comment-stream img {
+
+	float:left;
+	clear:left;
+	padding: 10px;;
+}
+
+.comments {
+
+	overflow:hidden;
+	display: inline-block;
+
+}
+
+nav ul {
+
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+
+nav li {
+
+	list-style: none;
+	display: inline;
+	border: solid;
+	border-width: 1px 1px 0 1px;
+	margin: 0 5px 0 0;
+}
+
+
+nav li a {
+
+	padding: 0 10px;
+}
+
+#content {
+
+	border: ipx solid;
+}
+
+
+#selected {
+
+	padding-bottom: 1px;
+	background: white;
+}
